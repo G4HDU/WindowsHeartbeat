@@ -1,0 +1,1582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboComPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 34</value>
+  </data>
+  <data name="cboComPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboComPort.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>302, 14</value>
+  </metadata>
+  <data name="cboComPort.ToolTip" xml:space="preserve">
+    <value>Select the com port to send heartbeats to</value>
+  </data>
+  <data name="&gt;&gt;cboComPort.Name" xml:space="preserve">
+    <value>cboComPort</value>
+  </data>
+  <data name="&gt;&gt;cboComPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboComPort.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;cboComPort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 37</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Com Port :</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 65</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Speed :</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbPortSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 62</value>
+  </data>
+  <data name="cbPortSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="cbPortSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbPortSpeed.Name" xml:space="preserve">
+    <value>cbPortSpeed</value>
+  </data>
+  <data name="&gt;&gt;cbPortSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbPortSpeed.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;cbPortSpeed.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 119</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Parity :</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 92</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Bits :</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 146</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Stop Bits :</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbParity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 116</value>
+  </data>
+  <data name="cbParity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="cbParity.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbParity.Name" xml:space="preserve">
+    <value>cbParity</value>
+  </data>
+  <data name="&gt;&gt;cbParity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbParity.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;cbParity.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cbBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 89</value>
+  </data>
+  <data name="cbBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="cbBits.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cbBits.Name" xml:space="preserve">
+    <value>cbBits</value>
+  </data>
+  <data name="&gt;&gt;cbBits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBits.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;cbBits.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cbStopBits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 143</value>
+  </data>
+  <data name="cbStopBits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="cbStopBits.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cbStopBits.Name" xml:space="preserve">
+    <value>cbStopBits</value>
+  </data>
+  <data name="&gt;&gt;cbStopBits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbStopBits.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;cbStopBits.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Settings.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Settings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Name" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Name" xml:space="preserve">
+    <value>btnDefault</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Name" xml:space="preserve">
+    <value>numInterval</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;numInterval.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Name" xml:space="preserve">
+    <value>txtHeartBeat</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pnlSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 12</value>
+  </data>
+  <data name="pnlSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 372</value>
+  </data>
+  <data name="pnlSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Name" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Settings.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Settings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="Settings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 9</value>
+  </data>
+  <data name="Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Settings.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Settings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 227</value>
+  </data>
+  <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="TextBox1.ToolTip" xml:space="preserve">
+    <value>Acknowledgement from heartbeat server - blank to ignore</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 227</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>Ack :</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Name" xml:space="preserve">
+    <value>rbnInterval</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Name" xml:space="preserve">
+    <value>rbn1Minute</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Name" xml:space="preserve">
+    <value>rbn1Second</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Name" xml:space="preserve">
+    <value>rbnNoBeep</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gpbSound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 256</value>
+  </data>
+  <data name="gpbSound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 72</value>
+  </data>
+  <data name="gpbSound.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="gpbSound.Text" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Name" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;gpbSound.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbnInterval.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnInterval.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbnInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="rbnInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="rbnInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbnInterval.Text" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="rbnInterval.ToolTip" xml:space="preserve">
+    <value>Beep on completion of each interval</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Name" xml:space="preserve">
+    <value>rbnInterval</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbnInterval.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbn1Minute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbn1Minute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbn1Minute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 43</value>
+  </data>
+  <data name="rbn1Minute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="rbn1Minute.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbn1Minute.Text" xml:space="preserve">
+    <value>1 Minute</value>
+  </data>
+  <data name="rbn1Minute.ToolTip" xml:space="preserve">
+    <value>Beep once per minute</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Name" xml:space="preserve">
+    <value>rbn1Minute</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbn1Minute.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbn1Second.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbn1Second.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbn1Second.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 19</value>
+  </data>
+  <data name="rbn1Second.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="rbn1Second.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbn1Second.Text" xml:space="preserve">
+    <value>1 Second</value>
+  </data>
+  <data name="rbn1Second.ToolTip" xml:space="preserve">
+    <value>Beep once per second</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Name" xml:space="preserve">
+    <value>rbn1Second</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbn1Second.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbnNoBeep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbnNoBeep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbnNoBeep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="rbnNoBeep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="rbnNoBeep.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbnNoBeep.Text" xml:space="preserve">
+    <value>No Beep</value>
+  </data>
+  <data name="rbnNoBeep.ToolTip" xml:space="preserve">
+    <value>No beep - silent operation</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Name" xml:space="preserve">
+    <value>rbnNoBeep</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.Parent" xml:space="preserve">
+    <value>gpbSound</value>
+  </data>
+  <data name="&gt;&gt;rbnNoBeep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDefault.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 334</value>
+  </data>
+  <data name="btnDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnDefault.Text" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="btnDefault.ToolTip" xml:space="preserve">
+    <value>Restore settings to the default values</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Name" xml:space="preserve">
+    <value>btnDefault</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDefault.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 334</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value>Save these settings</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 170</value>
+  </data>
+  <data name="numInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
+  </data>
+  <data name="numInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="numInterval.ToolTip" xml:space="preserve">
+    <value>Frequency of heartbeats in minutes</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Name" xml:space="preserve">
+    <value>numInterval</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numInterval.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;numInterval.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 199</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Heartbeat :</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtHeartBeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 196</value>
+  </data>
+  <data name="txtHeartBeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="txtHeartBeat.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="txtHeartBeat.Text" xml:space="preserve">
+    <value>pc</value>
+  </data>
+  <data name="txtHeartBeat.ToolTip" xml:space="preserve">
+    <value>text to send as part of the heartbeat</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Name" xml:space="preserve">
+    <value>txtHeartBeat</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;txtHeartBeat.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 172</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Interval :</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 304</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 304</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 29</value>
+  </data>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 89</value>
+  </data>
+  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="lblActivity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 9</value>
+  </data>
+  <data name="lblActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="lblActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblActivity.Text" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Name" xml:space="preserve">
+    <value>lblActivity</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblActivity.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 304</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 304</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 123</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 124</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblRemaining.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRemaining.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 252</value>
+  </data>
+  <data name="lblRemaining.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 18</value>
+  </data>
+  <data name="lblRemaining.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lblRemaining.Text" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="&gt;&gt;lblRemaining.Name" xml:space="preserve">
+    <value>lblRemaining</value>
+  </data>
+  <data name="&gt;&gt;lblRemaining.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRemaining.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblRemaining.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 334</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="btnStop.ToolTip" xml:space="preserve">
+    <value>Stop the heartbeats</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 334</value>
+  </data>
+  <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="btnStart.ToolTip" xml:space="preserve">
+    <value>Start the heartbeat wuth the current settins</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Name" xml:space="preserve">
+    <value>btnStart</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pgbRemaining.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pgbRemaining.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 273</value>
+  </data>
+  <data name="pgbRemaining.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="pgbRemaining.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 19</value>
+  </data>
+  <data name="pgbRemaining.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pgbRemaining.Name" xml:space="preserve">
+    <value>pgbRemaining</value>
+  </data>
+  <data name="&gt;&gt;pgbRemaining.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pgbRemaining.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;pgbRemaining.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Panel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 12</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 372</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="heartBeatTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SerialPort1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 14</value>
+  </metadata>
+  <metadata name="NotifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>401, 14</value>
+  </metadata>
+  <data name="NotifyIcon1.BalloonTipText" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="NotifyIcon1.BalloonTipTitle" xml:space="preserve">
+    <value>Windows Heartbeat</value>
+  </data>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>516, 14</value>
+  </metadata>
+  <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 126</value>
+  </data>
+  <data name="ContextMenuStrip1.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
+    <value>ContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NotifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAJCQAAAEAIACIFQAAFgAAACgAAAAkAAAASAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/AQAA/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wAAAQD/AAH/AAABAAAAAQAA/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8BAAAAAf8A/wL/AP8DAAAAAf8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wEAAP8B/wD/AgD6CGMA+g1l/wD/Av8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AAABAPAFMgD/CeoA/wvrAPAPM/8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wEAmQAKAP8I2wD/
+        C/UA/wz3AP8J3QC/Kwz/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wEAAP8B/wD/AQDsCRsA/wvZAP8K+gD/CfUA/wr2AP8L+wD/CdoA9hMb/wD/Av8A/wH/AP8B/wD/Af8A
+        /wL/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B////AP///wD/AP8BAO0MKgD/C9gA/wr3AP8K9QD/CvYA/wr2AP8K9QD/
+        CvcA/wzYAO0MKv8A/wEAAP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8C/wD/Af8A/wEA8gk5AP8J9wD/
+        DPcA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wv2AP8K9wDyCTr/AP8C////AP8A/wL/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8BAP8AAf8A
+        /wIAAP8B/wD/AgD6CmoA/wn3AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8J9gD/
+        CvcA+gpr/wD/A/8A/wH/AP8BAP//Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wEAAP8BAAD/AQAA/wH/AP8DAP8KoQD/CfYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wz2AP8Lo/8A/wOAAP8C/wD/Av8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8C/wD/AQDoDBYA/gq4AP8J+wD/
+        C/cA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr1AP8H+gD+
+        CLkA3gsX/wD/Af8A/wL/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wEAAP8B/wD/AgAA
+        AAH/AP8CAPAAIQD+Cs8A/wr5AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8L9wD/CfkA/gnQAOsUJv8A/wH/AP8B/wD/Av8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wIA8wwpAP8L7AD/CvQA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/w34AP8N7QDt
+        DCr/AP8BAAAAAf8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/AQDuER4A/wfSAP8I9QD/
+        CPUA/wn1AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wv1AP8K9wD/CNQA7xAf/wD/AQAA/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/AwD/CtMA/wr5AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/C/oA/wvV/wD/BP8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8CAP0KlgD/CvkA/wz3AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/DPcA/wz7AP0Imv8A/wL/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wEA8wwpAP8K5gD/
+        C/YA/wn1AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8M6QD5Eiv/AP8B/wD/Af8A
+        /wH/AP8B/wD/AYCAAAIA/ApkAP8M+wD/C/UA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CfUA/wv1AP8L/AD9D2gAAAAB/wD/Af8A/wH/AP8B////AP8A/wIA/QuiAP8K+QD/CfYA/wr1AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/C/YA/wj2AP8J+QD9CKSAAP8C/wD/Af8A/wH/AP8B////AP8A
+        /wQA/w3CAP8L+AD/C/YA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wz3AP8J9wD/
+        DcX/AP8E/wD/Af8A/wH/AP8BAAD/Af8A/wMA/wjBAP8K+AD/DPcA/wn2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wz3AP8K9wD/CcT/AP8C/wD/Af8A/wH/AP8B/wD/Af8A/wMA/QmmAP8L+QD/
+        CvUA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wn1AP8K+QD9Can/AIAC/wD/Af8A
+        /wH/AP8BAAAAAQAAgAIA+gdqAP8L+gD/CPQA/wv3AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        CvYA/wz3AP8K9QD/C/YA/wr2AP8K9gD/CfQA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/
+        C/YA/wj1AP8L+wD9B2wAgIAC/wD/Af8A/wH/AP8B/wD/AQD/AAEA7wswAP8L6gD/DfgA/wn1AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wj0AP8L+QD/CdgA/wvZAP8I9wD/CvYA/wr2AP8K9gD/
+        CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CPUA/wf0AP8L6wDvADD//wAB/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8CAP0GpQD/DPoA/wv2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wjzAP8L/AD5
+        Ck8A+AdMAP8L/QD/C/UA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr2AP8K9gD/CvYA/wr4AP0JqP8A
+        /wL/AAAB/wD/Af8A/wH/AP8B/wD/Af///wD/AP8BAAAAAwD/Cd4A/wr2AP8M9wD/CfUA/wn0AP8K9gD/
+        CvUA/wn2AP8K9gD/CvYA/wr2AP0NoQC/IAgAtgAHAPwNoQD/DPcA/wn1AP8J9gD/CvYA/wn1AP8J9QD/
+        CvUA/wr1AP8L9gD/CfYA/wbbKqoABv8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B////AADp
+        FhcA/gu0AP8J/wD/DPoA/wv3AP8L9gD/C/YA/w35AP8K/AD/C/QA+wuLALYAB/8A/wH/AP8BAKoABgD9
+        CYkA/wjyAP8J+gD/CPYA/wv2AP8K9QD/C/cA/wj5AP8K/wD+CLQA6SEX/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wAAAQAA/wEAkgAHAPMEQQD/CrcA/wjyAP8J/gD/B/sA/w3mAP8JkQDq
+        FSUAgEAEAAD/AYAA/wL/AKoD/wD/AoCAAAQA4w4kAP0FjgD/CuQA/wj8AP8H/QD/CvMA/wy5APMIQgC2
+        AAf/AAAB/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/AQD//wEA//8B/wD/Af8A
+        /wP/AP8EAL9ACAAAVQP/AP8E/wD/Af8A/wH/AAAB/wD/AQAA/wEA/wAB/wD/Af//AAH/AP8B/wD/Af8A
+        /wQAAAACALYkB/8A/wP/AP8D/wD/Af8A/wEA//8BAP8AAf8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH///8A////AP///wD/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B////AP///wD///8A////AP///wD/AP8B/wD/Af8A
+        /wH///8A////AP///wD/AP8B/wD/Af8A/wH///8A////AP///wD///8A////AP///wD/AP8B/wD/Af8A
+        /wH///8A////AP///wD///8A////AP8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A
+        /wH///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD/////8AAAAP/////wAAAA//////AAAAD/////8AAAAP//
+        ///wAAAA//////AAAAD//5//8AAAAP//D//wAAAA//4H//AAAAD//AP/8AAAAP/4Af/wAAAA//AA//AA
+        AAD/wAA/8AAAAP+AAB/wAAAA/wAAD/AAAAD+AAAH8AAAAPwAAAPwAAAA+AAAAfAAAADwAAAA8AAAAPAA
+        AADwAAAA8AAAAPAAAADgAAAAcAAAAOAAAABwAAAA4AAAAHAAAADgAAAAcAAAAPAAAADwAAAA8AAAAPAA
+        AADwAGAA8AAAAPgAYAHwAAAA/ADwA/AAAAD/A/wP8AAAAP/////wAAAA//////AAAAD/////8AAAAP//
+        ///wAAAA//////AAAAA=
+</value>
+  </data>
+  <data name="NotifyIcon1.Text" xml:space="preserve">
+    <value>Heartbeat</value>
+  </data>
+  <data name="NotifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tsmRestore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmRestore.Text" xml:space="preserve">
+    <value>Show Settings</value>
+  </data>
+  <data name="tsmHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmHide.Text" xml:space="preserve">
+    <value>Hide Settings</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 6</value>
+  </data>
+  <data name="tsmStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="tsmStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 6</value>
+  </data>
+  <data name="tsmExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="tsmExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>646, 398</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Com Beat</value>
+  </data>
+  <data name="&gt;&gt;heartBeatTimer.Name" xml:space="preserve">
+    <value>heartBeatTimer</value>
+  </data>
+  <data name="&gt;&gt;heartBeatTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SerialPort1.Name" xml:space="preserve">
+    <value>SerialPort1</value>
+  </data>
+  <data name="&gt;&gt;SerialPort1.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon1.Name" xml:space="preserve">
+    <value>NotifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmRestore.Name" xml:space="preserve">
+    <value>tsmRestore</value>
+  </data>
+  <data name="&gt;&gt;tsmRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmHide.Name" xml:space="preserve">
+    <value>tsmHide</value>
+  </data>
+  <data name="&gt;&gt;tsmHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmStart.Name" xml:space="preserve">
+    <value>tsmStart</value>
+  </data>
+  <data name="&gt;&gt;tsmStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmStop.Name" xml:space="preserve">
+    <value>tsmStop</value>
+  </data>
+  <data name="&gt;&gt;tsmStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmExit.Name" xml:space="preserve">
+    <value>tsmExit</value>
+  </data>
+  <data name="&gt;&gt;tsmExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmHeartBeat</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
