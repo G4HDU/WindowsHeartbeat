@@ -12,13 +12,13 @@ Public Class frmHeartBeat
     Private portSpeed As String = "9600"
     Private portParity As String = "None"
     Private portBits As String = "8"
-    Private portStopBits As String = "1"
+    Private portStopBits As String = "One"
     Private heartBeat As String
     Private beepOp As Integer = 1
     Private heartInterval As Integer = 1
     Private start_time As DateTime = Now
     Private noOfSeconds As Integer
-    Private selfDebug As Boolean = True
+    Private selfDebug As Boolean = False
     Enum buttonAction
         setStart
         setStop
@@ -165,7 +165,7 @@ Public Class frmHeartBeat
     '********************************************************************************************
     Private Function startTimer() As Boolean
         If selfDebug Then
-            'Console.WriteLine("starting")
+            Console.WriteLine("starting")
         End If
 
         setButtons(buttonAction.setStart)
@@ -183,7 +183,7 @@ Public Class frmHeartBeat
         pgbRemaining.Value = 0
         pgbRemaining.Maximum = heartInterval * 60
         NotifyIcon1.Icon = My.Resources.Resources.trayHeartRed
-
+        serialInit()
     End Function
     '********************************************************************************************
     '*
@@ -263,7 +263,7 @@ Public Class frmHeartBeat
             cbPortSpeed.Items.Add(column)
         Next
 
-        Dim myPortParities = {"None", "Even", "Odd", "Mark", "Space"}
+        Dim myPortParities = {"None", "Odd", "Even", "Mark", "Space"}
         For Each column As String In myPortParities
             cbParity.Items.Add(column)
         Next
@@ -273,7 +273,7 @@ Public Class frmHeartBeat
             cbBits.Items.Add(column)
         Next
 
-        Dim myPortStopBits = {"None", "One", "OnePointFive", "Two"}
+        Dim myPortStopBits = {"One", "Two", "OnePointFive"}
         For Each column As String In myPortStopBits
             cbStopBits.Items.Add(column)
         Next
@@ -366,7 +366,9 @@ Public Class frmHeartBeat
         If shortBeep And beepOp = 4 And elapsedTime Mod 60 = 0 Then ' 1 minute
             My.Computer.Audio.Play(My.Resources.beep, AudioPlayMode.Background)
         End If
-        Console.WriteLine("Time" & elapsedTime)
+        If selfDebug Then
+            Console.WriteLine("Time" & elapsedTime)
+        End If
     End Sub
     '********************************************************************************************
     '*
@@ -497,6 +499,42 @@ Public Class frmHeartBeat
     Private Sub numInterval_ValueChanged(sender As Object, e As EventArgs) Handles numInterval.ValueChanged
         setButtons(buttonAction.setChange)
     End Sub
+    Private Sub serialInit()
+        If SerialPort1.IsOpen = True Then
+            SerialPort1.Close()
+        End If
+        SerialPort1.PortName = comPort
+        SerialPort1.DataBits = Int(portBits)
+        Select Case portParity  ' portParity 0=NONE 1=ODD 2=EVEN 3=mark 4=space
+            Case "None"
+                SerialPort1.Parity = 0
+            Case "Odd"
+                SerialPort1.Parity = 1
+            Case "Even"
+                SerialPort1.Parity = 2
+            Case "Mark"
+                SerialPort1.Parity = 3
+            Case "Space"
+                SerialPort1.Parity = 4
+        End Select
+        Select Case portStopBits  ' portStopBits 1=one 2=two 3=onePointFive there is no none
+            Case "One"
+                SerialPort1.Parity = 1
+            Case "Two"
+                SerialPort1.Parity = 2
+            Case "OnePointFive"
+                SerialPort1.Parity = 3
+        End Select
+        SerialPort1.BaudRate = Int(portSpeed)
+        Console.WriteLine(portStopBits & "stop " & SerialPort1.StopBits.ToString)
+
+
+        Try
+            SerialPort1.Open()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
     '********************************************************************************************
     '*
     '*  notifyicon restore option clicked 
@@ -556,5 +594,7 @@ Public Class frmHeartBeat
     Private Sub frmHeartBeat_Load(sender As Object, e As EventArgs) Handles Me.Load
 
     End Sub
+
+
 End Class
 

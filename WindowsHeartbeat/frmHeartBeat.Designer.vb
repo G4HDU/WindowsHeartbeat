@@ -50,6 +50,9 @@ Partial Class frmHeartBeat
         Me.txtHeartBeat = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.lblActivity = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -71,8 +74,6 @@ Partial Class frmHeartBeat
         Me.tsmStop = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsmExit = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.pnlSettings.SuspendLayout()
         Me.gpbSound.SuspendLayout()
         CType(Me.numInterval, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,58 +86,93 @@ Partial Class frmHeartBeat
         'cboComPort
         '
         Me.cboComPort.FormattingEnabled = True
-        resources.ApplyResources(Me.cboComPort, "cboComPort")
+        Me.cboComPort.Location = New System.Drawing.Point(77, 34)
         Me.cboComPort.Name = "cboComPort"
-        Me.ToolTip1.SetToolTip(Me.cboComPort, resources.GetString("cboComPort.ToolTip"))
+        Me.cboComPort.Size = New System.Drawing.Size(180, 21)
+        Me.cboComPort.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.cboComPort, "Select the com port to send heartbeats to")
         '
         'Label1
         '
-        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.AutoSize = True
+        Me.Label1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label1.Location = New System.Drawing.Point(16, 37)
         Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(56, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Com Port :"
         '
         'Label2
         '
-        resources.ApplyResources(Me.Label2, "Label2")
+        Me.Label2.AutoSize = True
+        Me.Label2.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label2.Location = New System.Drawing.Point(15, 65)
         Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Speed :"
         '
         'cbPortSpeed
         '
         Me.cbPortSpeed.FormattingEnabled = True
-        resources.ApplyResources(Me.cbPortSpeed, "cbPortSpeed")
+        Me.cbPortSpeed.Location = New System.Drawing.Point(77, 62)
         Me.cbPortSpeed.Name = "cbPortSpeed"
+        Me.cbPortSpeed.Size = New System.Drawing.Size(180, 21)
+        Me.cbPortSpeed.TabIndex = 5
         '
         'Label3
         '
-        resources.ApplyResources(Me.Label3, "Label3")
+        Me.Label3.AutoSize = True
+        Me.Label3.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label3.Location = New System.Drawing.Point(16, 119)
         Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Parity :"
         '
         'Label4
         '
-        resources.ApplyResources(Me.Label4, "Label4")
+        Me.Label4.AutoSize = True
+        Me.Label4.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label4.Location = New System.Drawing.Point(16, 92)
         Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(30, 13)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Bits :"
         '
         'Label5
         '
-        resources.ApplyResources(Me.Label5, "Label5")
+        Me.Label5.AutoSize = True
+        Me.Label5.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label5.Location = New System.Drawing.Point(16, 146)
         Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(55, 13)
+        Me.Label5.TabIndex = 8
+        Me.Label5.Text = "Stop Bits :"
         '
         'cbParity
         '
         Me.cbParity.FormattingEnabled = True
-        resources.ApplyResources(Me.cbParity, "cbParity")
+        Me.cbParity.Location = New System.Drawing.Point(77, 116)
         Me.cbParity.Name = "cbParity"
+        Me.cbParity.Size = New System.Drawing.Size(180, 21)
+        Me.cbParity.TabIndex = 9
         '
         'cbBits
         '
         Me.cbBits.FormattingEnabled = True
-        resources.ApplyResources(Me.cbBits, "cbBits")
+        Me.cbBits.Location = New System.Drawing.Point(77, 89)
         Me.cbBits.Name = "cbBits"
+        Me.cbBits.Size = New System.Drawing.Size(180, 21)
+        Me.cbBits.TabIndex = 10
         '
         'cbStopBits
         '
         Me.cbStopBits.FormattingEnabled = True
-        resources.ApplyResources(Me.cbStopBits, "cbStopBits")
+        Me.cbStopBits.Location = New System.Drawing.Point(77, 143)
         Me.cbStopBits.Name = "cbStopBits"
+        Me.cbStopBits.Size = New System.Drawing.Size(180, 21)
+        Me.cbStopBits.TabIndex = 11
         '
         'pnlSettings
         '
@@ -161,24 +197,39 @@ Partial Class frmHeartBeat
         Me.pnlSettings.Controls.Add(Me.Label4)
         Me.pnlSettings.Controls.Add(Me.cbParity)
         Me.pnlSettings.Controls.Add(Me.Label3)
-        resources.ApplyResources(Me.pnlSettings, "pnlSettings")
+        Me.pnlSettings.Location = New System.Drawing.Point(24, 12)
         Me.pnlSettings.Name = "pnlSettings"
+        Me.pnlSettings.Size = New System.Drawing.Size(282, 372)
+        Me.pnlSettings.TabIndex = 17
         '
         'Settings
         '
-        resources.ApplyResources(Me.Settings, "Settings")
+        Me.Settings.AutoSize = True
+        Me.Settings.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.Settings.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Settings.Location = New System.Drawing.Point(17, 9)
         Me.Settings.Name = "Settings"
+        Me.Settings.Size = New System.Drawing.Size(67, 17)
+        Me.Settings.TabIndex = 34
+        Me.Settings.Text = "Settings"
         '
         'TextBox1
         '
-        resources.ApplyResources(Me.TextBox1, "TextBox1")
+        Me.TextBox1.Location = New System.Drawing.Point(78, 227)
         Me.TextBox1.Name = "TextBox1"
-        Me.ToolTip1.SetToolTip(Me.TextBox1, resources.GetString("TextBox1.ToolTip"))
+        Me.TextBox1.Size = New System.Drawing.Size(119, 20)
+        Me.TextBox1.TabIndex = 33
+        Me.ToolTip1.SetToolTip(Me.TextBox1, "Acknowledgement from heartbeat server - blank to ignore")
         '
         'Label9
         '
-        resources.ApplyResources(Me.Label9, "Label9")
+        Me.Label9.AutoSize = True
+        Me.Label9.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label9.Location = New System.Drawing.Point(16, 227)
         Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(32, 13)
+        Me.Label9.TabIndex = 32
+        Me.Label9.Text = "Ack :"
         '
         'gpbSound
         '
@@ -186,86 +237,135 @@ Partial Class frmHeartBeat
         Me.gpbSound.Controls.Add(Me.rbn1Minute)
         Me.gpbSound.Controls.Add(Me.rbn1Second)
         Me.gpbSound.Controls.Add(Me.rbnNoBeep)
-        resources.ApplyResources(Me.gpbSound, "gpbSound")
+        Me.gpbSound.Location = New System.Drawing.Point(19, 256)
         Me.gpbSound.Name = "gpbSound"
+        Me.gpbSound.Size = New System.Drawing.Size(238, 72)
+        Me.gpbSound.TabIndex = 31
         Me.gpbSound.TabStop = False
+        Me.gpbSound.Text = "Sound"
         '
         'rbnInterval
         '
-        resources.ApplyResources(Me.rbnInterval, "rbnInterval")
+        Me.rbnInterval.AutoSize = True
+        Me.rbnInterval.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.rbnInterval.Location = New System.Drawing.Point(6, 43)
         Me.rbnInterval.Name = "rbnInterval"
+        Me.rbnInterval.Size = New System.Drawing.Size(60, 17)
+        Me.rbnInterval.TabIndex = 3
         Me.rbnInterval.TabStop = True
-        Me.ToolTip1.SetToolTip(Me.rbnInterval, resources.GetString("rbnInterval.ToolTip"))
+        Me.rbnInterval.Text = "Interval"
+        Me.ToolTip1.SetToolTip(Me.rbnInterval, "Beep on completion of each interval")
         Me.rbnInterval.UseVisualStyleBackColor = True
         '
         'rbn1Minute
         '
-        resources.ApplyResources(Me.rbn1Minute, "rbn1Minute")
+        Me.rbn1Minute.AutoSize = True
+        Me.rbn1Minute.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.rbn1Minute.Location = New System.Drawing.Point(141, 43)
         Me.rbn1Minute.Name = "rbn1Minute"
+        Me.rbn1Minute.Size = New System.Drawing.Size(66, 17)
+        Me.rbn1Minute.TabIndex = 2
         Me.rbn1Minute.TabStop = True
-        Me.ToolTip1.SetToolTip(Me.rbn1Minute, resources.GetString("rbn1Minute.ToolTip"))
+        Me.rbn1Minute.Text = "1 Minute"
+        Me.ToolTip1.SetToolTip(Me.rbn1Minute, "Beep once per minute")
         Me.rbn1Minute.UseVisualStyleBackColor = True
         '
         'rbn1Second
         '
-        resources.ApplyResources(Me.rbn1Second, "rbn1Second")
+        Me.rbn1Second.AutoSize = True
+        Me.rbn1Second.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.rbn1Second.Location = New System.Drawing.Point(141, 19)
         Me.rbn1Second.Name = "rbn1Second"
+        Me.rbn1Second.Size = New System.Drawing.Size(71, 17)
+        Me.rbn1Second.TabIndex = 1
         Me.rbn1Second.TabStop = True
-        Me.ToolTip1.SetToolTip(Me.rbn1Second, resources.GetString("rbn1Second.ToolTip"))
+        Me.rbn1Second.Text = "1 Second"
+        Me.ToolTip1.SetToolTip(Me.rbn1Second, "Beep once per second")
         Me.rbn1Second.UseVisualStyleBackColor = True
         '
         'rbnNoBeep
         '
-        resources.ApplyResources(Me.rbnNoBeep, "rbnNoBeep")
+        Me.rbnNoBeep.AutoSize = True
         Me.rbnNoBeep.Checked = True
         Me.rbnNoBeep.Cursor = System.Windows.Forms.Cursors.Default
+        Me.rbnNoBeep.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.rbnNoBeep.Location = New System.Drawing.Point(6, 19)
         Me.rbnNoBeep.Name = "rbnNoBeep"
+        Me.rbnNoBeep.Size = New System.Drawing.Size(67, 17)
+        Me.rbnNoBeep.TabIndex = 0
         Me.rbnNoBeep.TabStop = True
-        Me.ToolTip1.SetToolTip(Me.rbnNoBeep, resources.GetString("rbnNoBeep.ToolTip"))
+        Me.rbnNoBeep.Text = "No Beep"
+        Me.ToolTip1.SetToolTip(Me.rbnNoBeep, "No beep - silent operation")
         Me.rbnNoBeep.UseVisualStyleBackColor = True
         '
         'btnDefault
         '
-        resources.ApplyResources(Me.btnDefault, "btnDefault")
+        Me.btnDefault.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnDefault.Location = New System.Drawing.Point(25, 334)
         Me.btnDefault.Name = "btnDefault"
-        Me.ToolTip1.SetToolTip(Me.btnDefault, resources.GetString("btnDefault.ToolTip"))
+        Me.btnDefault.Size = New System.Drawing.Size(75, 23)
+        Me.btnDefault.TabIndex = 30
+        Me.btnDefault.Text = "Defaults"
+        Me.ToolTip1.SetToolTip(Me.btnDefault, "Restore settings to the default values")
         Me.btnDefault.UseVisualStyleBackColor = True
         '
         'btnSave
         '
-        resources.ApplyResources(Me.btnSave, "btnSave")
+        Me.btnSave.Enabled = False
+        Me.btnSave.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnSave.Location = New System.Drawing.Point(182, 334)
         Me.btnSave.Name = "btnSave"
-        Me.ToolTip1.SetToolTip(Me.btnSave, resources.GetString("btnSave.ToolTip"))
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.TabIndex = 29
+        Me.btnSave.Text = "Save"
+        Me.ToolTip1.SetToolTip(Me.btnSave, "Save these settings")
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'numInterval
         '
-        resources.ApplyResources(Me.numInterval, "numInterval")
+        Me.numInterval.Location = New System.Drawing.Point(77, 170)
         Me.numInterval.Maximum = New Decimal(New Integer() {20, 0, 0, 0})
         Me.numInterval.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.numInterval.Name = "numInterval"
-        Me.ToolTip1.SetToolTip(Me.numInterval, resources.GetString("numInterval.ToolTip"))
+        Me.numInterval.Size = New System.Drawing.Size(180, 20)
+        Me.numInterval.TabIndex = 20
+        Me.ToolTip1.SetToolTip(Me.numInterval, "Frequency of heartbeats in minutes")
         Me.numInterval.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'Label7
         '
-        resources.ApplyResources(Me.Label7, "Label7")
+        Me.Label7.AutoSize = True
+        Me.Label7.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label7.Location = New System.Drawing.Point(16, 199)
         Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(60, 13)
+        Me.Label7.TabIndex = 21
+        Me.Label7.Text = "Heartbeat :"
         '
         'txtHeartBeat
         '
-        resources.ApplyResources(Me.txtHeartBeat, "txtHeartBeat")
+        Me.txtHeartBeat.Location = New System.Drawing.Point(78, 196)
         Me.txtHeartBeat.Name = "txtHeartBeat"
-        Me.ToolTip1.SetToolTip(Me.txtHeartBeat, resources.GetString("txtHeartBeat.ToolTip"))
+        Me.txtHeartBeat.Size = New System.Drawing.Size(120, 20)
+        Me.txtHeartBeat.TabIndex = 22
+        Me.txtHeartBeat.Text = "pc"
+        Me.ToolTip1.SetToolTip(Me.txtHeartBeat, "text to send as part of the heartbeat")
         '
         'Label6
         '
-        resources.ApplyResources(Me.Label6, "Label6")
+        Me.Label6.AutoSize = True
+        Me.Label6.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label6.Location = New System.Drawing.Point(15, 172)
         Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(48, 13)
+        Me.Label6.TabIndex = 19
+        Me.Label6.Text = "Interval :"
         '
         'Panel2
         '
+        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.Label12)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.PictureBox2)
@@ -277,137 +377,210 @@ Partial Class frmHeartBeat
         Me.Panel2.Controls.Add(Me.btnStop)
         Me.Panel2.Controls.Add(Me.btnStart)
         Me.Panel2.Controls.Add(Me.pgbRemaining)
-        resources.ApplyResources(Me.Panel2, "Panel2")
+        Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Panel2.Location = New System.Drawing.Point(333, 12)
         Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(293, 372)
+        Me.Panel2.TabIndex = 18
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(117, 334)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 39
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(225, 304)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(45, 13)
+        Me.Label12.TabIndex = 38
+        Me.Label12.Text = "Label12"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(77, 304)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(45, 13)
+        Me.Label11.TabIndex = 37
+        Me.Label11.Text = "Label11"
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.WindowsHeartbeat.My.Resources.Resources.redheart
-        resources.ApplyResources(Me.PictureBox2, "PictureBox2")
+        Me.PictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.PictureBox2.Location = New System.Drawing.Point(18, 29)
         Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(256, 89)
+        Me.PictureBox2.TabIndex = 36
         Me.PictureBox2.TabStop = False
         '
         'lblActivity
         '
-        resources.ApplyResources(Me.lblActivity, "lblActivity")
+        Me.lblActivity.AutoSize = True
+        Me.lblActivity.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.lblActivity.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblActivity.Location = New System.Drawing.Point(15, 9)
         Me.lblActivity.Name = "lblActivity"
+        Me.lblActivity.Size = New System.Drawing.Size(60, 17)
+        Me.lblActivity.TabIndex = 35
+        Me.lblActivity.Text = "Activity"
         '
         'Label10
         '
-        resources.ApplyResources(Me.Label10, "Label10")
+        Me.Label10.AutoSize = True
+        Me.Label10.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label10.Location = New System.Drawing.Point(156, 304)
         Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(45, 13)
+        Me.Label10.TabIndex = 32
+        Me.Label10.Text = "Label10"
         '
         'Label8
         '
-        resources.ApplyResources(Me.Label8, "Label8")
+        Me.Label8.AutoSize = True
+        Me.Label8.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.Label8.Location = New System.Drawing.Point(22, 304)
         Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(39, 13)
+        Me.Label8.TabIndex = 31
+        Me.Label8.Text = "Label8"
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.WindowsHeartbeat.My.Resources.Resources.HeartBeatflat
-        resources.ApplyResources(Me.PictureBox1, "PictureBox1")
+        Me.PictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.PictureBox1.Location = New System.Drawing.Point(17, 123)
         Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(256, 124)
+        Me.PictureBox1.TabIndex = 30
         Me.PictureBox1.TabStop = False
         '
         'lblRemaining
         '
-        resources.ApplyResources(Me.lblRemaining, "lblRemaining")
+        Me.lblRemaining.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblRemaining.Location = New System.Drawing.Point(22, 252)
         Me.lblRemaining.Name = "lblRemaining"
+        Me.lblRemaining.Size = New System.Drawing.Size(248, 18)
+        Me.lblRemaining.TabIndex = 29
+        Me.lblRemaining.Text = "Stopped"
         '
         'btnStop
         '
-        resources.ApplyResources(Me.btnStop, "btnStop")
+        Me.btnStop.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnStop.Location = New System.Drawing.Point(198, 334)
         Me.btnStop.Name = "btnStop"
-        Me.ToolTip1.SetToolTip(Me.btnStop, resources.GetString("btnStop.ToolTip"))
+        Me.btnStop.Size = New System.Drawing.Size(75, 23)
+        Me.btnStop.TabIndex = 28
+        Me.btnStop.Text = "Stop"
+        Me.ToolTip1.SetToolTip(Me.btnStop, "Stop the heartbeats")
         Me.btnStop.UseVisualStyleBackColor = True
         '
         'btnStart
         '
-        resources.ApplyResources(Me.btnStart, "btnStart")
+        Me.btnStart.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnStart.Location = New System.Drawing.Point(25, 334)
         Me.btnStart.Name = "btnStart"
-        Me.ToolTip1.SetToolTip(Me.btnStart, resources.GetString("btnStart.ToolTip"))
+        Me.btnStart.Size = New System.Drawing.Size(75, 23)
+        Me.btnStart.TabIndex = 27
+        Me.btnStart.Text = "Start"
+        Me.ToolTip1.SetToolTip(Me.btnStart, "Start the heartbeat wuth the current settins")
         Me.btnStart.UseVisualStyleBackColor = True
         '
         'pgbRemaining
         '
-        resources.ApplyResources(Me.pgbRemaining, "pgbRemaining")
+        Me.pgbRemaining.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.pgbRemaining.Location = New System.Drawing.Point(18, 273)
         Me.pgbRemaining.Name = "pgbRemaining"
+        Me.pgbRemaining.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.pgbRemaining.Size = New System.Drawing.Size(256, 19)
         Me.pgbRemaining.Step = 1
+        Me.pgbRemaining.TabIndex = 20
         '
         'heartBeatTimer
         '
         '
+        'SerialPort1
+        '
+        Me.SerialPort1.Parity = System.IO.Ports.Parity.Mark
+        '
         'NotifyIcon1
         '
         Me.NotifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info
-        resources.ApplyResources(Me.NotifyIcon1, "NotifyIcon1")
+        Me.NotifyIcon1.BalloonTipText = "Running"
+        Me.NotifyIcon1.BalloonTipTitle = "Windows Heartbeat"
         Me.NotifyIcon1.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "Heartbeat"
+        Me.NotifyIcon1.Visible = True
         '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsmRestore, Me.tsmHide, Me.ToolStripSeparator1, Me.tsmStart, Me.tsmStop, Me.ToolStripSeparator2, Me.tsmExit})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(149, 126)
+        Me.ContextMenuStrip1.Text = "Menu"
         '
         'tsmRestore
         '
         Me.tsmRestore.Checked = True
         Me.tsmRestore.CheckState = System.Windows.Forms.CheckState.Checked
         Me.tsmRestore.Name = "tsmRestore"
-        resources.ApplyResources(Me.tsmRestore, "tsmRestore")
+        Me.tsmRestore.Size = New System.Drawing.Size(148, 22)
+        Me.tsmRestore.Text = "Show Settings"
         '
         'tsmHide
         '
         Me.tsmHide.Name = "tsmHide"
-        resources.ApplyResources(Me.tsmHide, "tsmHide")
+        Me.tsmHide.Size = New System.Drawing.Size(148, 22)
+        Me.tsmHide.Text = "Hide Settings"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        resources.ApplyResources(Me.ToolStripSeparator1, "ToolStripSeparator1")
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(145, 6)
         '
         'tsmStart
         '
         Me.tsmStart.Name = "tsmStart"
-        resources.ApplyResources(Me.tsmStart, "tsmStart")
+        Me.tsmStart.Size = New System.Drawing.Size(148, 22)
+        Me.tsmStart.Text = "Start"
         '
         'tsmStop
         '
         Me.tsmStop.Checked = True
         Me.tsmStop.CheckState = System.Windows.Forms.CheckState.Checked
-        resources.ApplyResources(Me.tsmStop, "tsmStop")
+        Me.tsmStop.Enabled = False
         Me.tsmStop.Name = "tsmStop"
+        Me.tsmStop.Size = New System.Drawing.Size(148, 22)
+        Me.tsmStop.Text = "Stop"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        resources.ApplyResources(Me.ToolStripSeparator2, "ToolStripSeparator2")
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(145, 6)
         '
         'tsmExit
         '
         Me.tsmExit.Name = "tsmExit"
-        resources.ApplyResources(Me.tsmExit, "tsmExit")
-        '
-        'Label11
-        '
-        resources.ApplyResources(Me.Label11, "Label11")
-        Me.Label11.Name = "Label11"
-        '
-        'Label12
-        '
-        resources.ApplyResources(Me.Label12, "Label12")
-        Me.Label12.Name = "Label12"
+        Me.tsmExit.Size = New System.Drawing.Size(148, 22)
+        Me.tsmExit.Text = "Exit"
         '
         'frmHeartBeat
         '
-        resources.ApplyResources(Me, "$this")
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(646, 398)
         Me.Controls.Add(Me.pnlSettings)
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.HelpButton = True
         Me.MaximizeBox = False
         Me.Name = "frmHeartBeat"
+        Me.Text = "Com Beat"
         Me.pnlSettings.ResumeLayout(False)
         Me.pnlSettings.PerformLayout()
         Me.gpbSound.ResumeLayout(False)
@@ -470,4 +643,5 @@ Partial Class frmHeartBeat
     Friend WithEvents tsmStop As ToolStripMenuItem
     Friend WithEvents Label12 As Label
     Friend WithEvents Label11 As Label
+    Friend WithEvents Button1 As Button
 End Class
